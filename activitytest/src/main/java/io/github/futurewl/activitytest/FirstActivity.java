@@ -45,8 +45,9 @@ public class FirstActivity extends BaseActivity {
 //                活动的启动模式 standard
 //                Intent intent = new Intent(FirstActivity.this, FirstActivity.class);
 //                活动的启动模式 singleTop
-                Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
+//                startActivity(intent);
+                SecondActivity.actionStart(FirstActivity.this, "data1", "data2");
             }
         });
     }
