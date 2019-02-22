@@ -19,7 +19,9 @@
                 <data android:scheme="http" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity">
+        <activity
+            android:name=".SecondActivity"
+            android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="io.github.futurewl.activitytest.ACTION_START" />
 
@@ -27,7 +29,9 @@
                 <category android:name="io.github.futurewl.activitytest.MY_CATEGORY" />
             </intent-filter>
         </activity>
-        <activity android:name=".FirstActivity">
+        <activity
+            android:name=".FirstActivity"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
