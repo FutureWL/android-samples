@@ -1,4 +1,4 @@
-package com.rgbtec.android_samples;
+package io.github.futurewl.app;
 
 import org.junit.Test;
 

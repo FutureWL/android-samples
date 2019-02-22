@@ -3,8 +3,10 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
 
+
+
     defaultConfig {
-        applicationId "io.github.futurewl.app"
+        applicationId "io.github.futurewl.activitytest"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1

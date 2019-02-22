@@ -1,4 +1,4 @@
-package com.rgbtec.android_samples;
+package io.github.futurewl.app;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.rgbtec.android_samples", appContext.getPackageName());
+        assertEquals("io.github.futurewl.android_hello_world", appContext.getPackageName());
     }
 }
