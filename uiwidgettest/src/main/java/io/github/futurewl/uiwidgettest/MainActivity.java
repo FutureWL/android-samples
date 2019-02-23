@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -32,6 +33,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button:
+//                ------ EditText ------
+//                String inputText = editText.getText().toString();
+//                Toast.makeText(this, inputText, Toast.LENGTH_SHORT).show();
+//                ------ ImageView ------
+//                imageView.setImageResource(R.drawable.img_2);
+//                ------ ProgressDialog ------
                 ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
                 progressDialog.setTitle("This is ProgressDialog");
                 progressDialog.setMessage("Loading...");
