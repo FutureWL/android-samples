@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_linear_layout_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线性布局 垂直排列" />
+
+    <Button
+        android:id="@+id/button_linear_layout_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线性布局 水平排列" />
+
+    <Button
+        android:id="@+id/button_linear_layout_horizontal_gravity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线性布局 水平排列 对齐显示" />
+
+</LinearLayout>
