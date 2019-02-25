@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttonRelativeLayout.setOnClickListener(this);
         Button buttonRelativeParentLayout = findViewById(R.id.button_relative_parent_layout);
         buttonRelativeParentLayout.setOnClickListener(this);
+        Button buttonPercentFrameParentLayout = findViewById(R.id.button_percent_frame_parent_layout);
+        buttonPercentFrameParentLayout.setOnClickListener(this);
     }
 
     @Override
@@ -47,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button_relative_parent_layout:
                 activityClass = RelativeParentActivity.class;
+                break;
+            case R.id.button_percent_frame_parent_layout:
+                activityClass = PercentFrameActivity.class;
                 break;
             default:
                 break;
