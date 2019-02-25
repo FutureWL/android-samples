@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".RelativeActivity"></activity>
+        <activity android:name=".RelativeParentActivity" />
+        <activity android:name=".LinearLayoutWeightActivity" />
         <activity android:name=".LinearLayoutHorizontalGravityActivity" />
         <activity android:name=".LinearLayoutHorizontalActivity" />
         <activity android:name=".LinearLayoutVerticalActivity" />

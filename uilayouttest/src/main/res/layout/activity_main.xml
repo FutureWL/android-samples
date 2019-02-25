@@ -24,4 +24,22 @@
         android:layout_height="wrap_content"
         android:text="线性布局 水平排列 对齐显示" />
 
+    <Button
+        android:id="@+id/button_linear_layout_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线性布局 按比例指定控件大小" />
+
+    <Button
+        android:id="@+id/button_relative_parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="相对布局 相对父容器" />
+
+    <Button
+        android:id="@+id/button_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="相对布局 相对同级控件" />
+
 </LinearLayout>
