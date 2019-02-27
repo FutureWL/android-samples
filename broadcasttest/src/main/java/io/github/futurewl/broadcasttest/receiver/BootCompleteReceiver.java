@@ -1,4 +1,4 @@
-package io.github.futurewl.broadcasttest;
+package io.github.futurewl.broadcasttest.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

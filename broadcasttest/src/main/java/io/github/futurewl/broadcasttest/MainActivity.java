@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import io.github.futurewl.broadcasttest.receiver.MyBroadcastReceiver;
+
 public class MainActivity extends AppCompatActivity {
 
     private IntentFilter intentFilter;

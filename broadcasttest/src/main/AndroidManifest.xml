@@ -13,11 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <receiver
-            android:name=".MyBroadcastReceiver"
+            android:name=".receiver.MyBroadcastReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
+            android:exported="true" />
         <receiver
-            android:name=".BootCompleteReceiver"
+            android:name=".receiver.BootCompleteReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
