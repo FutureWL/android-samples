@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MyBroadcastReceiver.class);
+                Intent intent = new Intent("io.github.futurewl.broadcasttest.MY_BROADCAST");
                 sendBroadcast(intent);
             }
         });
