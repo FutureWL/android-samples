@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("io.github.futurewl.broadcasttest.MY_BROADCAST");
-                sendBroadcast(intent);
+                sendOrderedBroadcast(intent, null);
             }
         });
     }
