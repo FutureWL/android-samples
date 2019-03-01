@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="BookStore" />
+    <version value="2" />
+    <list>
+        <mapping class="io.github.futurewl.litepaltest.Book" />
+        <mapping class="io.github.futurewl.litepaltest.Category" />
+    </list>
+</litepal>
