@@ -1,13 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitylifecycletest" />
+            <option value="$PROJECT_DIR$/activitytest" />
+            <option value="$PROJECT_DIR$/androidthreadtest" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/broadcastbestpractice" />
+            <option value="$PROJECT_DIR$/broadcastbestpractice2" />
+            <option value="$PROJECT_DIR$/broadcasttest" />
+            <option value="$PROJECT_DIR$/broadcasttest2" />
+            <option value="$PROJECT_DIR$/cameraalbumtest" />
+            <option value="$PROJECT_DIR$/contactstest" />
+            <option value="$PROJECT_DIR$/coolweather" />
+            <option value="$PROJECT_DIR$/databasetest" />
+            <option value="$PROJECT_DIR$/databasetest2" />
+            <option value="$PROJECT_DIR$/filepersistencetest" />
+            <option value="$PROJECT_DIR$/fragmentbestpractice" />
+            <option value="$PROJECT_DIR$/fragmenttest" />
+            <option value="$PROJECT_DIR$/lbstest" />
+            <option value="$PROJECT_DIR$/listview_smapleadapter_test" />
+            <option value="$PROJECT_DIR$/listviewtest" />
+            <option value="$PROJECT_DIR$/litepaltest" />
+            <option value="$PROJECT_DIR$/materialtest" />
+            <option value="$PROJECT_DIR$/mediaplayertest" />
+            <option value="$PROJECT_DIR$/networktest" />
+            <option value="$PROJECT_DIR$/notificationtest" />
+            <option value="$PROJECT_DIR$/playaudiotest" />
+            <option value="$PROJECT_DIR$/playvideotest" />
+            <option value="$PROJECT_DIR$/providertest" />
+            <option value="$PROJECT_DIR$/recyclerviewtest" />
+            <option value="$PROJECT_DIR$/runtimepermissiontest" />
+            <option value="$PROJECT_DIR$/servicebestpractice" />
+            <option value="$PROJECT_DIR$/servicetest" />
+            <option value="$PROJECT_DIR$/sharedpreferencestest" />
+            <option value="$PROJECT_DIR$/uibestpractice" />
+            <option value="$PROJECT_DIR$/uicustomviews" />
+            <option value="$PROJECT_DIR$/uilayouttest" />
+            <option value="$PROJECT_DIR$/uiwidgettest" />
+            <option value="$PROJECT_DIR$/webviewtest" />
+          </set>
+        </option>
         <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>

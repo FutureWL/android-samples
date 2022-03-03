@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * 功能描述：
+ * 功能描述：ViewHolder 模式开启
  *
  * @author weilai create by 2019/2/25:11:30 PM
  * @version 1.0

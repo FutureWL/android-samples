@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/qq_img"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:background="@mipmap/caocao" />
+
+    <TextView
+        android:id="@+id/qq_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/qq_img"
+        android:text="曹操"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/qq_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qq_name"
+        android:layout_toRightOf="@id/qq_img"
+        android:text="魏国"
+        android:textColor="#003333" />
+</RelativeLayout>
